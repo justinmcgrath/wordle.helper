@@ -1,0 +1,15 @@
+Package: wordle.helper
+Version: 0.0
+Title: Functions associated with the game Wordle.
+Description: Wordle is a game like Master Mind but using words. This is
+    a collection of functions to identify remaining words based on responses
+    and to identify the best guesses.
+Authors@R: c(
+    person("McGrath", "Justin M.", email = "notsetup@email.com", role =
+           c('cre', 'aut'))
+    )
+Depends: parallel
+Suggests: pbapply
+License: Creative Commons Attribution 4.0 International
+LazyData: true
+ByteCompile: TRUE

@@ -1,0 +1,5 @@
+export(wordle_result)
+export(regex_from_result)
+export(best_options)
+export(remaining)
+export(possible_words)
