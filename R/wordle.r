@@ -104,6 +104,7 @@ regex_from_result = function(guess_list, result_list) {
         not_present_regex = paste0(not_present_regex, pattern, collapse='')
     }
 
+    not_in_place = strsplit(paste0(not_in_place, collapse=''), '')[[1]]
     not_in_place = paste0('(?=.*?', not_in_place, ')', collapse='')
     #regex_pattern = paste0(regex_pattern, collapse='')
     paste0(c(not_present_regex, not_in_place, regex_pattern), collapse='')
